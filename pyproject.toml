@@ -3,7 +3,7 @@ name = "adoy"
 version = "0.1.0"
 description = "A static site generator designed for large sites with fast incremental builds and first-class support for multiple content types."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "mistune>=3.2.0",
     "pydantic>=2.12.5",
