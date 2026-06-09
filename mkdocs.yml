@@ -1,0 +1,30 @@
+site_name: adoy
+site_description: A static site generator for large sites with fast incremental builds.
+site_url: https://acaibowlz.github.io/adoy
+repo_url: https://github.com/acaibowlz/adoy
+repo_name: acaibowlz/adoy
+
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - content.code.copy
+
+nav:
+  - Getting Started: getting-started.md
+  - Configuration: configuration.md
+  - Content: content.md
+  - Theming: theming.md
