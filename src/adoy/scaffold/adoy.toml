@@ -1,0 +1,27 @@
+[site]
+title = "{name}"
+subtitle = "A site built with adoy"
+description = "My personal site"
+url = "https://example.com"
+base_path = "/"
+
+[build]
+paginate = 10
+timezone = "UTC"
+
+[template]
+default = "post.html"
+base = "base.html"
+
+[content.blog]
+section = "blog"
+template = "post.html"
+permalink = "/blog/:slug"
+
+[taxonomy.tags]
+name = "tags"
+path = "/tags"
+applies_to = ["blog"]
+sort_by = "date"
+template_taxonomy = "tags.html"
+template_term = "tag.html"

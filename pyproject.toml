@@ -5,9 +5,19 @@ description = "A static site generator designed for large sites with fast increm
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "jinja2>=3.1.6",
     "mistune>=3.2.0",
     "pydantic>=2.12.5",
     "python-frontmatter>=1.1.0",
-    "rich>=14.2.0",
+    "tomli ; python_full_version < '3.11'",
     "typer>=0.21.1",
+    "watchdog>=6.0.0",
+]
+
+[project.scripts]
+adoy = "adoy.cli:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
 ]
