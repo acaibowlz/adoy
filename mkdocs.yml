@@ -24,6 +24,7 @@ theme:
     - content.code.copy
 
 nav:
+  - Home: index.md
   - Getting Started: getting-started.md
   - Configuration: configuration.md
   - Content: content.md
