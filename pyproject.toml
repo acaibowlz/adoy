@@ -1,7 +1,7 @@
 [project]
 name = "adoy"
 version = "0.1.0"
-description = "A static site generator designed for large sites with fast incremental builds and first-class support for multiple content types."
+description = "An agent-first static site generator — build and manage your site through natural language."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

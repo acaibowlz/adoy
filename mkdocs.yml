@@ -1,5 +1,5 @@
 site_name: adoy
-site_description: A static site generator for large sites with fast incremental builds.
+site_description: An agent-first static site generator — build and manage your site through natural language.
 site_url: https://acaibowlz.github.io/adoy
 repo_url: https://github.com/acaibowlz/adoy
 repo_name: acaibowlz/adoy
